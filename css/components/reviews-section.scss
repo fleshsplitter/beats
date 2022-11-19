@@ -1,0 +1,10 @@
+.reviews-section {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: url(../../img/background-imgs/Ellipse-gray.svg);
+    bottom: -25px;
+    left: 10%;
+  }
+}

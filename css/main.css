@@ -172,7 +172,8 @@ img {
   height: 100vh;
   min-height: 650px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
 
 .section__title {
   font-size: 48px;
@@ -319,3 +320,11 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.reviews-section {
+  position: relative; }
+  .reviews-section::before {
+    position: absolute;
+    content: url(../../img/background-imgs/Ellipse-gray.svg);
+    bottom: -25px;
+    left: 10%; }
