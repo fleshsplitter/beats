@@ -1,6 +1,9 @@
 $containerWidth: 940px;
 $baseFontSize: 16px;
 
+//z-indexes
+$z-fixed-menu: 100;
+
 html,
 body {
   height: 100%;
