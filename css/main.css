@@ -72,7 +72,7 @@ img {
   max-width: 100%; }
 
 .hero {
-  background: url(../../img/decor/Ellipse\ 5.svg) right 15% center no-repeat;
+  background: url(../img/decor/Ellipse\ 5.svg) right 15% center no-repeat;
   background-color: #F5F5F5;
   height: 100vh;
   min-height: 40.625rem;
@@ -107,7 +107,7 @@ img {
   position: relative; }
   .hero-section::before {
     position: absolute;
-    content: url(../../img/background-imgs/grey-4angle.svg);
+    content: url(../img/background-imgs/grey-4angle.svg);
     bottom: -1.5625rem;
     right: 15%; }
 
@@ -271,7 +271,7 @@ img {
   position: relative; }
   .benefits-section::before {
     position: absolute;
-    content: url(../../img/background-imgs/red-triange.svg);
+    content: url(../img/background-imgs/red-triange.svg);
     left: 10%;
     bottom: -1.4375rem; }
 
@@ -344,17 +344,17 @@ img {
   position: relative; }
   .reviews-section::before {
     position: absolute;
-    content: url(../../img/background-imgs/Ellipse-gray.svg);
+    content: url(../img/background-imgs/Ellipse-gray.svg);
     bottom: -1.5625rem;
     left: 10%;
     z-index: 1; }
 
 .delivery-section {
-  background: url(../../img/background-imgs/delivery-bg.png) 0 0/100% 100% no-repeat;
+  background: url(../img/background-imgs/delivery-bg.png) 0 0/100% 100% no-repeat;
   color: #fff;
   position: relative; }
   .delivery-section::before {
-    content: url(../../img/background-imgs/Polygon.svg);
+    content: url(../img/background-imgs/Polygon.svg);
     position: absolute;
     right: 5%;
     top: -1.4375rem; }

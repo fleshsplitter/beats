@@ -1,10 +1,10 @@
 .delivery-section {
-  background: url(../../img/background-imgs/delivery-bg.png) 0 0/100% 100% no-repeat;
+  background: url(../img/background-imgs/delivery-bg.png) 0 0/100% 100% no-repeat;
   color: #fff;
   position: relative;
 
   &::before {
-    content: url(../../img/background-imgs/Polygon.svg);
+    content: url(../img/background-imgs/Polygon.svg);
     position: absolute;
     right: 5%;
     top: rem(-23px);
