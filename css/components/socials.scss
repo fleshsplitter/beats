@@ -1,9 +1,9 @@
-.features {
+.socials__list {
   display: flex;
 }
 
-.features__item {
-  margin-right: rem(8px);
+.socials__item {
+  margin-right: 0.625rem;
 
   &:last-child {
     margin-right: 0;

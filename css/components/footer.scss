@@ -1,0 +1,20 @@
+.footer {
+  // flex: 1;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__contacts-adress {
+  font-size: 1.125rem;
+}

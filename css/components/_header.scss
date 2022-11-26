@@ -5,19 +5,19 @@
 }
 
 .logo {
-  margin-right: 17px;
+  margin-right: rem(17px);
 }
 
 .menu__list {
   display: flex;
   align-items: center;
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 18px;
-  margin-top: 8px;
+  font-size: rem(18px);
+  margin-top: rem(8px);
 }
 
 .menu__item {
-  margin-right: 27px;
+  margin-right: rem(27px);
 
   // &:last-child {
   //   margin-right: 0;
@@ -29,15 +29,15 @@
 }
 
 .phone-number {
-  font-size: 18px;
+  font-size: rem(18px);
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-right: 24px;
+  margin-right: rem(24px);
 }
 
 .phone-number-icon-elem {
-  width: 14px;
-  height: 14px;
-  margin-right: 6px;
+  width: rem(14px);
+  height: rem(14px);
+  margin-right: rem(6px);
 }

@@ -10,7 +10,7 @@
   &::before {
     content: url(../../img/icons/separator.png);
     position: absolute;
-    top: 56px;
+    top: rem(56px);
     right: 0;
     transform: translateX(50%);
   }

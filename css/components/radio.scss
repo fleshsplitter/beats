@@ -2,11 +2,11 @@
   display: flex;
   cursor: pointer;
   user-select: none;
-  margin-right: 16px;
+  margin-right: rem(16px);
 
   &--checkbox {
     .radio__visible {
-      border-radius: 4px;
+      border-radius: rem(4px);
 
       &::before {
         background: url(../../img/icons/checkbox.png) center center no-repeat;
@@ -26,17 +26,17 @@
 }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: rem(26px);
+  height: rem(26px);
   border-radius: 50%;
   position: relative;
   background: #fff;
-  margin-right: 10px;
+  margin-right: rem(10px);
 
   &::before {
     content: "";
-    width: 13px;
-    height: 13px;
+    width: rem(13px);
+    height: rem(13px);
     background: red;
     border-radius: 50%;
     position: absolute;

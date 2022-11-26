@@ -7,11 +7,11 @@
     content: url(../../img/background-imgs/Polygon.svg);
     position: absolute;
     right: 5%;
-    top: -23px;
+    top: rem(-23px);
   }
 }
 
 .delivery-section__title {
-  margin-bottom: 47px;
-  margin-top: 29px;
+  margin-bottom: rem(47px);
+  margin-top: rem(29px);
 }

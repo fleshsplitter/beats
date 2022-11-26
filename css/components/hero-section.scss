@@ -4,7 +4,7 @@
   &::before {
     position: absolute;
     content: url(../../img/background-imgs/grey-4angle.svg);
-    bottom: -25px;
+    bottom: rem(-25px);
     right: 15%;
   }
 }

@@ -4,7 +4,7 @@
   &::before {
     position: absolute;
     content: url(../../img/background-imgs/Ellipse-gray.svg);
-    bottom: -25px;
+    bottom: rem(-25px);
     left: 10%;
     z-index: 1;
   }
