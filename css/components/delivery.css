@@ -2,17 +2,15 @@
   background: url(../img/background-imgs/delivery-bg.png) 0 0/100% 100% no-repeat;
   color: #fff;
   position: relative;
-  background-color: #181818;
-
-  &::before {
+  background-color: #181818; }
+  .delivery-section::before {
     content: url(../img/background-imgs/Polygon.svg);
     position: absolute;
     right: 5%;
-    top: rem(-23px);
-  }
-}
+    top: rem(-23px); }
 
 .delivery-section__title {
   margin-bottom: rem(47px);
-  margin-top: rem(29px);
-}
+  margin-top: rem(29px); }
+
+/*# sourceMappingURL=delivery.css.map */
