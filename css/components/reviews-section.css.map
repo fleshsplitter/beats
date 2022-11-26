@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,gBAAiB;EACf,QAAQ,EAAE,QAAQ;EAElB,wBAAU;IACR,QAAQ,EAAE,QAAQ;IAClB,OAAO,EAAE,4CAA4C;IACrD,MAAM,EAAE,UAAU;IAClB,IAAI,EAAE,GAAG;IACT,OAAO,EAAE,CAAC",
-"sources": ["reviews-section.scss"],
-"names": [],
-"file": "reviews-section.css"
-}

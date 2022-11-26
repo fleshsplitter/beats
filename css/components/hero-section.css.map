@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,aAAc;EACZ,QAAQ,EAAE,QAAQ;EAElB,qBAAU;IACR,QAAQ,EAAE,QAAQ;IAClB,OAAO,EAAE,2CAA2C;IACpD,MAAM,EAAE,UAAU;IAClB,KAAK,EAAE,GAAG",
-"sources": ["hero-section.scss"],
-"names": [],
-"file": "hero-section.css"
-}
