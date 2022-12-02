@@ -52,4 +52,8 @@
   &:last-child {
     margin-bottom: 0;
   }
+
+  &--margin-bottom {
+    margin-bottom: rem(45px);
+  }
 }

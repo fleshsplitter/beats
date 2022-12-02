@@ -1,11 +1,19 @@
 .benefits {
   display: flex;
+
+  @include tablets {
+    // transform: translateY(rem(-15px));
+  }
 }
 
 .benefits__item {
   flex: 1;
-  padding: 0 3%;
+  margin: 0 rem(26px);
   position: relative;
+
+  @include tablets {
+    margin: 0 rem(15px);
+  }
 
   &::before {
     content: url(../../img/icons/separator.png);
@@ -13,14 +21,18 @@
     top: rem(56px);
     right: 0;
     transform: translateX(50%);
+
+    @include tablets {
+      display: none;
+    }
   }
 
   &:first-child {
-    padding-left: 0;
+    margin-left: 0;
   }
 
   &:last-child {
-    padding-right: 0;
+    margin-right: 0;
 
     &::before {
       display: none;
