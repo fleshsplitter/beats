@@ -8,6 +8,11 @@
   display: inline-block;
   border: none;
 
+  @include phones {
+    padding: rem(21px) rem(40px);
+    font-size: 19px;
+  }
+
   &--theme-red {
     background: #E01F3D;
     color: #fff;

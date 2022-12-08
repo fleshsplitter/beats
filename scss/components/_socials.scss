@@ -1,5 +1,9 @@
 .socials {
   transform: translateX(20px);
+
+  @include tablets {
+    transform: translateX(-14px);
+  }
 }
 
 .socials__list {

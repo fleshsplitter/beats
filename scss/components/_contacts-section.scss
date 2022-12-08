@@ -1,3 +1,9 @@
 .contacts-section {
   position: relative;
+
+  @include tablets {
+    height: auto;
+    min-height: 600px;
+    justify-content: flex-start;
+  }
 }

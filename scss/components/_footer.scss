@@ -18,4 +18,8 @@
 
 .footer__contacts-adress {
   font-size: 1.125rem;
+
+  @include tablets {
+    font-size: 21px;
+  }
 }

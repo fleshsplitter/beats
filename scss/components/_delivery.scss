@@ -12,6 +12,11 @@
 }
 
 .delivery-section__title {
-  margin-bottom: rem(47px);
+  margin-bottom: rem(52px);
   margin-top: rem(29px);
+  
+  @include tablets {
+    margin-bottom: rem(20px);
+
+  }
 }

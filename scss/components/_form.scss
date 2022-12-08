@@ -1,5 +1,10 @@
 .form {
   display: flex;
+
+  @include tablets {
+    flex-direction: column;
+    padding: 0 121px;
+  }
 }
 
 .form__col {
@@ -7,6 +12,10 @@
   margin-right: rem(27px);
 
   &:last-child {
+    margin-right: 0;
+  }
+
+  @include tablets {
     margin-right: 0;
   }
 }
@@ -31,6 +40,10 @@
   padding: rem(18px) rem(12px) rem(20px);
   border-radius: rem(4px);
 
+  @include tablets {
+    padding: rem(8px) rem(10px);
+  }
+
   &:focus {
     border-color: red;
     outline: none;
@@ -40,6 +53,11 @@
     height: rem(152px);
     resize: none;
     margin-bottom: rem(23px);
+
+    @include tablets {
+      height: rem(85px);
+      margin-bottom: 5px;
+    }
   }
 }
 
@@ -49,11 +67,24 @@
   padding-left: rem(7px);
   margin-bottom: rem(19px);
 
+  @include tablets {
+    padding-left: 0;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
 
   &--margin-bottom {
     margin-bottom: rem(45px);
+  }
+}
+
+.form__btns {
+
+  @include tablets {
+    display: flex;
+    justify-content: center;
+    padding-left: rem(49px);
   }
 }
