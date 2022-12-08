@@ -234,6 +234,9 @@ img {
   margin-bottom: 1.625rem;
   text-align: center;
   color: #000; }
+  @media screen and (max-width: 480px) {
+    .section__title {
+      font-size: 32px; } }
   .section__title--white {
     color: #fff; }
   @media screen and (max-width: 768px) {
@@ -253,16 +256,26 @@ img {
   @media screen and (max-width: 768px) {
     .headline__title {
       margin-bottom: 0.25rem; } }
+  @media screen and (max-width: 480px) {
+    .headline__title {
+      margin-bottom: 0.3125rem; } }
 
 .headline__subtitle {
   padding: 0 10.625rem;
   line-height: 1.2; }
   @media screen and (max-width: 768px) {
     .headline__subtitle {
-      padding: 0 55px; } }
+      padding: 0 3.4375rem; } }
+  @media screen and (max-width: 480px) {
+    .headline__subtitle {
+      padding: 0 5%; } }
 
 .benefits {
   display: flex; }
+  @media screen and (max-width: 480px) {
+    .benefits {
+      flex-direction: column;
+      transform: translateX(-5px); } }
 
 .benefits__item {
   flex: 1;
@@ -271,6 +284,12 @@ img {
   @media screen and (max-width: 768px) {
     .benefits__item {
       margin: 0 0.9375rem; } }
+  @media screen and (max-width: 480px) {
+    .benefits__item {
+      padding: 0;
+      margin-bottom: 1.9375rem;
+      margin-right: 0;
+      margin-left: 0; } }
   .benefits__item::before {
     content: url(../../img/icons/separator.png);
     position: absolute;
@@ -289,9 +308,17 @@ img {
 
 .benefit {
   text-align: center; }
+  @media screen and (max-width: 480px) {
+    .benefit {
+      display: flex;
+      text-align: left; } }
 
 .benefit__image {
   margin-bottom: 0.9375rem; }
+  @media screen and (max-width: 480px) {
+    .benefit__image {
+      margin-bottom: 0;
+      margin-right: 0.3125rem; } }
 
 .benefit__image-wrapepr {
   display: inline-block;
@@ -318,9 +345,16 @@ img {
   @media screen and (max-width: 768px) {
     .benefit__title {
       margin-bottom: 0.875rem; } }
+  @media screen and (max-width: 480px) {
+    .benefit__title {
+      margin-top: 0.75rem;
+      margin-bottom: 0.25rem; } }
 
 .benefit_desc {
   padding: 0 1.125rem; }
+  @media screen and (max-width: 480px) {
+    .benefit_desc {
+      padding: 0; } }
   .benefit_desc p {
     line-height: 1.2; }
     @media screen and (max-width: 768px) {

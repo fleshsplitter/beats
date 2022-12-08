@@ -14,6 +14,10 @@
   text-align: center;
   color: #000;
 
+  @include phones {
+    font-size: 32px;
+  }
+
   &--white {
     color: #fff;
   }
@@ -24,5 +28,6 @@
       margin-bottom: rem(39px);
       transform: translateY(rem(13px));
     }
+
   }
 }

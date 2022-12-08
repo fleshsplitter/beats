@@ -13,6 +13,10 @@
   @include tablets {
     margin-bottom: rem(4px);
   }
+
+  @include phones {
+    margin-bottom: rem(5px);
+  }
 }
 
 .headline__subtitle {
@@ -20,6 +24,10 @@
   line-height: 1.2;
 
   @include tablets {
-    padding: 0 55px;
+    padding: 0 rem(55px);
+  }
+
+  @include phones {
+    padding: 0 5%;
   }
 }

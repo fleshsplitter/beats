@@ -4,6 +4,11 @@
   @include tablets {
     // transform: translateY(rem(-15px));
   }
+
+  @include phones {
+    flex-direction: column;
+    transform: translateX(-5px);
+  }
 }
 
 .benefits__item {
@@ -13,6 +18,13 @@
 
   @include tablets {
     margin: 0 rem(15px);
+  }
+
+  @include phones {
+    padding: 0;
+    margin-bottom: rem(31px);
+    margin-right: 0;
+    margin-left: 0;
   }
 
   &::before {

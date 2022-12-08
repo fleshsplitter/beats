@@ -1,9 +1,19 @@
 .benefit {
   text-align: center;
+
+  @include phones {
+    display: flex;
+    text-align: left;
+  }
 }
 
 .benefit__image {
   margin-bottom: rem(15px);
+
+  @include phones {
+    margin-bottom: 0;
+    margin-right: rem(5px);
+  }
 }
 
 .benefit__image-wrapepr {
@@ -34,10 +44,19 @@
   @include tablets {
     margin-bottom: rem(14px);
   }
+
+  @include phones {
+    margin-top: rem(12px);
+    margin-bottom: rem(4px);
+  }
 }
 
 .benefit_desc {
   padding: 0 rem(18px);
+
+  @include phones {
+    padding: 0;
+  }
 
   p {
     line-height: 1.2;
