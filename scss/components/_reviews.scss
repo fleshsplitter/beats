@@ -10,6 +10,10 @@
     margin-bottom: rem(30px);
   }
 
+  @include phones {
+    margin-bottom: rem(47px);
+  }
+
   ::before {
     content:"";
     position: absolute;
@@ -23,6 +27,10 @@
 
     @include tablets {
       top: -47px;
+    }
+
+    @include phones {
+      display: none;
     }
   }
 }
@@ -63,12 +71,20 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  @include phones {
+    padding-top: rem(19px);
+  }
 }
 
 .reviews__title {
   font-size: rem(24px);
   color: #000;
   font-weight: bold;
+
+  @include phones {
+    margin-bottom: 17px;
+  }
 }
 
 .reviews__text {
@@ -99,15 +115,10 @@
   &::before {
     display: none;
   }
-
-  @include tablets {
-    transform: translateY(rem(-17px));
-  }
 }
 
 .reviews__switcher {
   display: flex;
   justify-content: center;
   column-gap: rem(3px);
-
 }
