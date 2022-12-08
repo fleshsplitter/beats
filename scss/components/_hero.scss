@@ -6,7 +6,7 @@
   color: #292929;
 
   @include tablets {
-    background: url(../../img/decor/Ellipse-768.svg) top 32% center no-repeat;
+    background: url(../img/decor/Ellipse-768.svg) top 32% center no-repeat;
     background-color: #F5F5F5;
   }
   
@@ -44,7 +44,7 @@
 .hero_bg {
   width: 100%;
   height: rem(323px);
-  background: url(../../img/decor/Ellipse-768.svg) center center no-repeat;
+  background: url(../img/decor/Ellipse-768.svg) center center no-repeat;
   background-size: contain;
   display: none;
 
