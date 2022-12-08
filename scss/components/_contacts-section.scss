@@ -1,9 +1,10 @@
 .contacts-section {
   position: relative;
-
+  justify-content: start;
+  
   @include tablets {
+    justify-content: flex-start;
     height: auto;
     min-height: 600px;
-    justify-content: flex-start;
   }
 }

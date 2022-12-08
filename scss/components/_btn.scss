@@ -24,6 +24,10 @@
     color: #fff;
     text-transform: none;
 
+    @include phones {
+      // padding: 0;
+    }
+
     &:hover {
       color: #000;
     }

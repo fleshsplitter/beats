@@ -17,6 +17,9 @@
   
   @include tablets {
     margin-bottom: rem(20px);
+  }
 
+  @include phones {
+    margin-bottom: rem(32px);
   }
 }
