@@ -63,13 +63,14 @@
 
   @include tablets {
     margin-bottom: rem(3px);
+    padding: 0 5%;
   }
 
   @include phones {
     font-size: rem(32px);
-    padding: 0 rem(13px);
+    padding: 0 rem(24px);
     margin-bottom: rem(16px);
-    line-height: 36px;
+    line-height: rem(36px);
   }
 }
 
@@ -86,9 +87,9 @@
   }
 
   @include phones {
-    padding: 0 rem(40px);
+    padding: 0 rem(46px);
     margin-bottom: rem(21px);
-    line-height: 20px;
+    line-height: rem(20px);
   }
 }
 

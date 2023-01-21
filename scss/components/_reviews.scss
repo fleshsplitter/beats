@@ -6,15 +6,15 @@
   overflow: hidden;
 
   @include tablets {
-    padding: rem(55px) rem(16px) rem(24px);
+    padding: rem(55px) rem(16px) rem(40px);
     margin-bottom: rem(30px);
   }
 
   @include phones {
-    margin-bottom: rem(47px);
+    margin-bottom: rem(34px);
   }
 
-  ::before {
+  &::before {
     content:"";
     position: absolute;
     left: 50%;
@@ -83,28 +83,16 @@
   font-weight: bold;
 
   @include phones {
-    margin-bottom: 17px;
+    margin-bottom: rem(5px);
   }
 }
 
 .reviews__text {
-
-
-  &::before {
-    display: none;
-  }
-  p {
     margin-bottom: rem(38px);
 
-
-    &::before {
-      display: none;
-    }
-
     @include tablets {
-      transform: translateY(rem(-12px));
+      margin-bottom: rem(15px)
     }
-  }
 }
 
 .reviews__author {

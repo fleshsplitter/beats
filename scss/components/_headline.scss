@@ -24,7 +24,7 @@
   line-height: 1.2;
 
   @include tablets {
-    padding: 0 rem(55px);
+    padding: 0 16%;
   }
 
   @include phones {

@@ -85,6 +85,10 @@
 
   &--margin-bottom {
     margin-bottom: rem(45px);
+    
+    @include phones {
+      margin-bottom: rem(21px);
+    }
   }
 }
 

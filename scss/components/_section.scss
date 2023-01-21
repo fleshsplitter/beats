@@ -3,7 +3,11 @@
   min-height: rem(650px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
+
+  @include phones {
+    min-height: auto;
+  }
 }
 
 .section__title {
@@ -15,7 +19,7 @@
   color: #000;
 
   @include phones {
-    font-size: 32px;
+    font-size: rem(32px);
   }
 
   &--white {

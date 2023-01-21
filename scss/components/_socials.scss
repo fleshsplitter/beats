@@ -2,7 +2,11 @@
   transform: translateX(20px);
 
   @include tablets {
-    transform: translateX(-14px);
+    transform: translateX(-30px);
+  }
+
+  @include phones {
+    transform: initial;
   }
 }
 
@@ -12,6 +16,10 @@
 
 .socials__item {
   margin-right: 0.625rem;
+
+  @include phones {
+    margin-right: rem(14px);
+  }
 
   &:last-child {
     margin-right: 0;

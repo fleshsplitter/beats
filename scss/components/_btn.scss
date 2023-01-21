@@ -10,7 +10,7 @@
 
   @include phones {
     padding: rem(21px) rem(40px);
-    font-size: 19px;
+    font-size: rem(19px);
   }
 
   &--theme-red {
@@ -20,6 +20,7 @@
   }
 
   &--theme-transparent {
+    padding: rem(21px) rem(8px);
     background: transparent;
     color: #fff;
     text-transform: none;

@@ -1,19 +1,21 @@
 .map {
 
+  width: 100%;
+  height: 100%;
   @include phones {
     flex: 1;
   }
 }
 
 .map__img {
-  object-fit: contain;
+  object-fit: cover;
   // max-width: none;
   height: 100%;
   width: 100%;
   
-  @include phones {
-    max-width: none;
-    height: auto;
-    width: auto;
-  }
+  // @include phones {
+  //   max-width: none;
+  //   height: auto;
+  //   width: auto;
+  // }
 }

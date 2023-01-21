@@ -24,7 +24,11 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+
+  @include phones {
+    align-items: center;
+  }
 }
 
 .footer__contacts-adress {
@@ -35,6 +39,7 @@
   }
 
   @include phones {
-    font-size: 18px;
+    font-size: rem(18px);
+    margin-bottom: rem(12px);
   }
 }

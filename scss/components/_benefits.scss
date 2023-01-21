@@ -11,13 +11,23 @@
   }
 }
 
+.benefits-section__container {
+  @include tablets {
+    width: 99%;
+  }
+  @include phones {
+    width: 95%;
+    
+  }
+}
+
 .benefits__item {
   flex: 1;
   margin: 0 rem(26px);
   position: relative;
 
   @include tablets {
-    margin: 0 rem(15px);
+    margin: 0;
   }
 
   @include phones {

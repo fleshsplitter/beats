@@ -10,7 +10,7 @@ html {
 
   @include phones {
     // font-size: $baseFontSize - 2px;
-    // font-size: 3.3333vmin;
+    font-size: 3.3333vmin;
   }
 }
 
@@ -40,13 +40,6 @@ body {
   max-width: $containerWidth;
   margin: 0 auto;
   position: relative;
-
-  &--form {
-    @include phones {
-      margin: 0;
-      width: 100%;
-    }
-  }
 }
 
 //tag style reset

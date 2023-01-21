@@ -1,8 +1,15 @@
 .sprite-icon {
   fill: #B3B3B3;
   transition: 1s;
+  width: rem(30px);
+  height: rem(30px);
 
   &:hover {
     fill: #000;
+  }
+
+  @include phones {
+    width: rem(24px);
+    height: rem(24px);
   }
 }
