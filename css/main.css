@@ -229,7 +229,8 @@ img {
   height: 100vh;
   min-height: 40.625rem;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
   @media screen and (max-width: 480px) {
     .section {
       min-height: auto; } }
