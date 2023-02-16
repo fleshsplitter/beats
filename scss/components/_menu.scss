@@ -1,10 +1,16 @@
 .menu {
   margin: 0 21px;
   padding-top: 2px;
-  
+
   @include tablets {
     display: none;
   }
+
+  &--vertical {
+    display: block;
+
+  }
+
 }
 
 .menu__list {
@@ -14,16 +20,20 @@
   align-items: center;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: rem(18px);
-  // margin-top: rem(8px);
+
+  &--vertical {
+    flex-direction: column;
+    font-size: rem(36px);
+    line-height: rem(64px);
+    color: #fff;
+    font-family: 'Play', sans-serif;
+  }
 }
 
 .menu__item {
   margin-right: rem(27px);
   margin-bottom: 10px;
 
-  // &:last-child {
-  //   margin-right: 0;
-  // }
 }
 
 .menu__link {
