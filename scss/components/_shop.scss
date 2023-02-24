@@ -1,0 +1,30 @@
+.shop {
+  display: flex;
+  flex: 1;
+}
+
+.shop__arrow {
+  display: flex;
+}
+
+.shop__image {
+  width: rem(452px);
+  height: rem(452px);
+}
+
+.shop__image-img {
+  object-fit: none;
+  height: 100%;
+  width: 100%;
+}
+
+.shop__properties-btn {
+  width: rem(91px);
+  height: rem(91px);
+  background: #9A9A9A;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -845,4 +845,36 @@ img {
   right: 42px;
   top: 42px; }
 
+.shop-section {
+  background: #F8FAF9; }
+
+.shop-section__container {
+  display: flex;
+  flex-direction: row; }
+
+.shop {
+  display: flex;
+  flex: 1; }
+
+.shop__arrow {
+  display: flex; }
+
+.shop__image {
+  width: 28.25rem;
+  height: 28.25rem; }
+
+.shop__image-img {
+  object-fit: none;
+  height: 100%;
+  width: 100%; }
+
+.shop__properties-btn {
+  width: 5.6875rem;
+  height: 5.6875rem;
+  background: #9A9A9A;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*# sourceMappingURL=main.css.map */
