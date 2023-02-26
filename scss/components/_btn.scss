@@ -7,6 +7,7 @@
   text-decoration: none;
   display: inline-block;
   border: none;
+  transition: 0.5s;
 
   @include phones {
     padding: rem(21px) rem(40px);
