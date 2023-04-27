@@ -7,6 +7,12 @@
   }
 }
 
+.benefit__text {
+  @include phones {
+    padding-top: rem(12px);
+  }
+}
+
 .benefit__image {
   margin-bottom: rem(15px);
 
@@ -46,7 +52,6 @@
   }
 
   @include phones {
-    margin-top: rem(12px);
     margin-bottom: rem(4px);
   }
 }

@@ -329,6 +329,10 @@ img {
       display: flex;
       text-align: left; } }
 
+@media screen and (max-width: 480px) {
+  .benefit__text {
+    padding-top: 0.75rem; } }
+
 .benefit__image {
   margin-bottom: 0.9375rem; }
   @media screen and (max-width: 480px) {
@@ -363,7 +367,6 @@ img {
       margin-bottom: 0.875rem; } }
   @media screen and (max-width: 480px) {
     .benefit__title {
-      margin-top: 0.75rem;
       margin-bottom: 0.25rem; } }
 
 .benefit_desc {
@@ -957,5 +960,45 @@ img {
   @media screen and (max-width: 480px) {
     .shop__price {
       font-size: 2rem; } }
+
+.team__list {
+  display: flex;
+  flex-direction: row; }
+
+.member {
+  margin-right: 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column; }
+  .member:last-child {
+    margin-right: 0; }
+
+.member__pic {
+  margin-bottom: 25px; }
+
+.member__name {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 11px;
+  align-self: center;
+  position: relative; }
+  .member__name::after {
+    position: absolute;
+    right: -14px;
+    top: 10px;
+    content: '';
+    border: 5px transparent solid;
+    border-top: 5px solid red; }
+
+.member__desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.member__desc-title {
+  margin-bottom: 4px;
+  color: #000; }
 
 /*# sourceMappingURL=main.css.map */
