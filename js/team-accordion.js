@@ -1,6 +1,12 @@
-const button = document.querySelector('.member__name::after');
-const text_block = document.querySelector('.member__desc');
+export function accordeon() {
+const buttons = document.querySelectorAll('.member__button');
+const text_blocks = document.querySelectorAll('.member__desc');
+const names = document.querySelectorAll('.member__name');
 
-button.addEventListener('click', e => {
-  text_block.classList.toggle('member__desc--active');
-})
+buttons.forEach((button,i) => {
+  button.addEventListener('click', e => {
+    text_blocks[i].classList.toggle('member__desc--active');
+    names[i].classList.toggle('member__name--active');
+  })
+});
+}

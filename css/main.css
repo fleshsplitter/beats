@@ -987,7 +987,7 @@ img {
     margin-right: 0; }
 
 .member__pic {
-  margin-bottom: 25px; }
+  margin-bottom: 1.5625rem; }
 
 .member__button {
   border: none;
@@ -1000,7 +1000,7 @@ img {
   text-align: center;
   font-weight: 700;
   color: #000;
-  margin-bottom: 11px;
+  margin-bottom: 0.6875rem;
   align-self: center; }
   .member__name::after {
     content: '';
@@ -1008,12 +1008,15 @@ img {
     border-top: 5px solid red;
     display: inline-block;
     margin-left: 4px; }
+  .member__name--active::after {
+    transform: rotate(180deg); }
 
 .member__desc {
   display: flex;
   flex-direction: column;
   text-align: center;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 0; }
   .member__desc--active {
     height: auto; }
 

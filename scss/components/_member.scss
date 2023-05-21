@@ -11,7 +11,7 @@
 }
 
 .member__pic {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
 }
 
 .member__button {
@@ -26,9 +26,10 @@
   text-align: center;
   font-weight: 700;
   color: #000;
-  margin-bottom: 11px;
+  margin-bottom: rem(11px);
   align-self: center;
   // position: relative;
+
 
   &::after {
     // position: absolute;
@@ -41,6 +42,13 @@
     display: inline-block;
     margin-left: 4px;
   }
+
+  &--active {
+
+    &::after {
+      transform: rotate(180deg);
+    }
+  }
 }
 
 .member__desc {
@@ -48,7 +56,7 @@
   flex-direction: column;
   text-align: center;
   overflow: hidden;
-  // height: 0;
+  height: 0;
 
   &--active {
     height: auto;
