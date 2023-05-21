@@ -961,6 +961,18 @@ img {
     .shop__price {
       font-size: 2rem; } }
 
+.team-section {
+  position: relative; }
+  .team-section::before {
+    position: absolute;
+    content: '';
+    background: #000;
+    height: 30px;
+    width: 30px;
+    top: -7px;
+    right: 5%;
+    transform: rotate(28deg); }
+
 .team__list {
   display: flex;
   flex-direction: row; }
@@ -969,12 +981,19 @@ img {
   margin-right: 1.25rem;
   flex: 1;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
   .member:last-child {
     margin-right: 0; }
 
 .member__pic {
   margin-bottom: 25px; }
+
+.member__button {
+  border: none;
+  background: #fff;
+  padding: 0;
+  width: fit-content; }
 
 .member__name {
   font-size: 18px;
@@ -982,20 +1001,21 @@ img {
   font-weight: 700;
   color: #000;
   margin-bottom: 11px;
-  align-self: center;
-  position: relative; }
+  align-self: center; }
   .member__name::after {
-    position: absolute;
-    right: -14px;
-    top: 10px;
     content: '';
     border: 5px transparent solid;
-    border-top: 5px solid red; }
+    border-top: 5px solid red;
+    display: inline-block;
+    margin-left: 4px; }
 
 .member__desc {
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
+  .member__desc--active {
+    height: auto; }
 
 .member__desc-title {
   margin-bottom: 4px;

@@ -1,13 +1,15 @@
-const ham = document.querySelector('.hamburger');
-const menu = document.querySelector('.fullscreen-menu');
-const close = document.querySelector('.modal-close');
+export function fullscreen() {
+  const ham = document.querySelector('.hamburger');
+  const menu = document.querySelector('.fullscreen-menu');
+  const close = document.querySelector('.modal-close');
 
-ham.addEventListener('click', e => {
-  e.preventDefault();
-  menu.style.display = 'block';
-})
+  ham.addEventListener('click', e => {
+    e.preventDefault();
+    menu.style.display = 'block';
+  })
 
-close.addEventListener('click', e => {
-  e.preventDefault;
-  menu.style.display = 'none';
-})
+  close.addEventListener('click', e => {
+    e.preventDefault;
+    menu.style.display = 'none';
+  })
+}
