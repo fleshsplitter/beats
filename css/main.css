@@ -857,6 +857,10 @@ img {
   flex-direction: row;
   justify-content: center;
   max-width: 985px; }
+  .shop-section__container .bx-wrapper {
+    border: 0;
+    background: transparent;
+    box-shadow: none; }
 
 .shop {
   display: flex;
@@ -902,8 +906,7 @@ img {
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: -30px; }
+  align-items: center; }
   @media screen and (max-width: 768px) {
     .shop__properties-btn {
       display: none; } }

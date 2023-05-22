@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fleshsplitter/beats/issues"
   },
-  "homepage": "https://github.com/fleshsplitter/beats#readme"
+  "homepage": "https://github.com/fleshsplitter/beats#readme",
+  "dependencies": {
+    "bxslider": "^4.2.14",
+    "jquery": "^3.7.0"
+  }
 }
