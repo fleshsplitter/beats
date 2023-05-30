@@ -57,9 +57,11 @@
   text-align: center;
   overflow: hidden;
   height: 0;
+  transition: height .3s;
+  
 
   &--active {
-    height: auto;
+    height: 95px;
   }
 }
 

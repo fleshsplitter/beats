@@ -311,7 +311,7 @@ img {
     position: absolute;
     top: 3.5rem;
     right: 0;
-    transform: translateX(50%); }
+    transform: translateX(91%); }
     @media screen and (max-width: 768px) {
       .benefits__item::before {
         display: none; } }
@@ -978,7 +978,8 @@ img {
 
 .team__list {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  height: 442px; }
 
 .member {
   margin-right: 1.25rem;
@@ -1019,9 +1020,10 @@ img {
   flex-direction: column;
   text-align: center;
   overflow: hidden;
-  height: 0; }
+  height: 0;
+  transition: height .3s; }
   .member__desc--active {
-    height: auto; }
+    height: 95px; }
 
 .member__desc-title {
   margin-bottom: 4px;
