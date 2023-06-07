@@ -899,6 +899,10 @@ img {
       flex-shrink: 0;
       max-width: none; } }
 
+.shop__button-hover {
+  opacity: 0;
+  transition: opacity .3s; }
+
 .shop__properties-btn {
   width: 5.6875rem;
   height: 5.6875rem;
@@ -906,7 +910,10 @@ img {
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
+  .shop__properties-btn:hover + .shop__button-hover {
+    opacity: 1; }
   @media screen and (max-width: 768px) {
     .shop__properties-btn {
       display: none; } }
@@ -1028,5 +1035,30 @@ img {
 .member__desc-title {
   margin-bottom: 4px;
   color: #000; }
+
+.hover {
+  position: absolute;
+  top: 0;
+  right: 108px; }
+  .hover__list {
+    background: rgba(255, 255, 255, 0.8);
+    width: 273px;
+    padding: 28px 30px;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 4px; }
+  .hover__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 28px; }
+    .hover__item:last-child {
+      margin-bottom: 0; }
+  .hover__icon {
+    margin-right: 16px;
+    width: 32px;
+    height: 32px; }
+  .hover__value {
+    flex: 1;
+    text-align: right; }
 
 /*# sourceMappingURL=main.css.map */

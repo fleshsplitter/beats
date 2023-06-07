@@ -37,11 +37,16 @@
 .shop__main {
   max-width: rem(410px);
   flex: 1;
-  
+
   @include tablets {
     flex-shrink: 0;
     max-width: none;
   }
+}
+
+.shop__button-hover {
+  opacity: 0;
+  transition: opacity .3s;
 }
 
 .shop__properties-btn {
@@ -52,12 +57,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // margin-top: -30px;
+  position: relative;
+
+  &:hover+.shop__button-hover {
+    opacity: 1;
+  }
 
   @include tablets {
     display: none;
   }
 }
+
 
 .shop__content {
   display: flex;
@@ -119,6 +129,7 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
 .shop__price {
   font-size: rem(36px);
   color: #000;

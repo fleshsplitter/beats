@@ -9,11 +9,11 @@
     background: url(../img/decor/Ellipse-768.svg) top 32% center no-repeat;
     background-color: #F5F5F5;
   }
-  
+
   @include phones {
     background: none;
     background-color: #F5F5F5;
-    
+
   }
 }
 

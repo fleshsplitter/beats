@@ -1,0 +1,36 @@
+.hover {
+  position: absolute;
+  top: 0;
+  right: 108px;
+
+  &__list {
+    background: rgba(255, 255, 255, 0.8);
+    width: 273px;
+    padding: 28px 30px;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 28px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__icon {
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+  }
+
+  &__value {
+    flex: 1;
+    text-align: right;
+  }
+
+}
