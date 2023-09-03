@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+< !DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
     <meta
       name="viewport"
       content="width=device-width,
-      initial-scale=1.0"
+initial-scale=1.0"
     />
     <title>BEATS</title>
     <link
@@ -14,9 +14,7 @@
       href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   </head>
-
   <body>
     <div class="wrapper">
       <div class="maincontent">
@@ -523,13 +521,12 @@
                   class="reviews__switcher-item reviews__switcher-item--active"
                   data-open="one"
                 >
-                  <a href="#one" class="reviews__switcher__link">
-                    <img
+                  <a href="#one" class="reviews__switcher__link"
+                    ><img
                       src="./img/decor/billie.jpg"
                       alt=""
                       class="reviews__switcher__img"
-                    />
-                  </a>
+                  /></a>
                 </li>
                 <li class="reviews__switcher-item" data-open="two">
                   <a href="#two" class="reviews__switcher__link"
@@ -561,68 +558,79 @@
             <form action="" class="form">
               <div class="form__col">
                 <div class="form__row">
-                  <label class="form__block">
-                    <div class="form__title">Имя</div>
-                    <input type="text" class="form__input" /> </label
-                  ><label class="form__block">
-                    <div class="form__title">Телефон</div>
-                    <input type="text" class="form__input" />
-                  </label>
+                  <label class="form__block"
+                    ><div class="form__title">Имя</div>
+                    <input type="text" class="form__input" name="name" /></label
+                  ><label class="form__block"
+                    ><div class="form__title">Телефон</div>
+                    <input type="text" class="form__input" name="phone"
+                  /></label>
                 </div>
                 <div class="form__row">
-                  <label class="form__block">
-                    <div class="form__title">Улица</div>
-                    <input type="text" class="form__input" />
-                  </label>
+                  <label class="form__block"
+                    ><div class="form__title">Улица</div>
+                    <input type="text" class="form__input" name="street"
+                  /></label>
                 </div>
                 <div class="form__row">
-                  <label class="form__block">
-                    <div class="form__title">Дом</div>
-                    <input type="text" class="form__input" /> </label
-                  ><label class="form__block">
-                    <div class="form__title">Корпус</div>
-                    <input type="text" class="form__input" /> </label
-                  ><label class="form__block">
-                    <div class="form__title">Квартира</div>
-                    <input type="text" class="form__input" /> </label
-                  ><label class="form__block">
-                    <div class="form__title">Этаж</div>
-                    <input type="text" class="form__input" />
-                  </label>
+                  <label class="form__block"
+                    ><div class="form__title">Дом</div>
+                    <input
+                      type="text"
+                      class="form__input"
+                      name="house" /></label
+                  ><label class="form__block"
+                    ><div class="form__title">Корпус</div>
+                    <input
+                      type="text"
+                      class="form__input"
+                      name="housing" /></label
+                  ><label class="form__block"
+                    ><div class="form__title">Квартира</div>
+                    <input
+                      type="text"
+                      class="form__input"
+                      name="apartments" /></label
+                  ><label class="form__block"
+                    ><div class="form__title">Этаж</div>
+                    <input type="text" class="form__input" name="floor"
+                  /></label>
                 </div>
               </div>
               <div class="form__col">
                 <div class="form__row">
-                  <label class="form__block">
-                    <div class="form__title">Комментарий</div>
+                  <label class="form__block"
+                    ><div class="form__title">Комментарий</div>
                     <textarea
                       class="form__input form__input--textarea"
+                      name="comment"
                     ></textarea>
                   </label>
                 </div>
                 <div class="form__controls">
                   <label class="radio"
-                    ><input type="radio" __name="option" class="radio__elem" />
+                    ><input type="radio" name="option" class="radio__elem" />
                     <div class="radio__visible"></div>
-                    <div class="radio__title">Потребуется сдача</div> </label
+                    <div class="radio__title">Потребуется сдача</div></label
                   ><label class="radio"
-                    ><input type="radio" __name="option" class="radio__elem" />
+                    ><input type="radio" name="option" class="radio__elem" />
                     <div class="radio__visible"></div>
-                    <div class="radio__title">Оплата картой</div>
-                  </label>
+                    <div class="radio__title">Оплата картой</div></label
+                  >
                 </div>
                 <div class="form__controls form__controls--margin-bottom">
                   <label class="radio radio--checkbox"
                     ><input type="checkbox" class="radio__elem" />
                     <div class="radio__visible"></div>
-                    <div class="radio__title">Не перезванивать</div>
-                  </label>
+                    <div class="radio__title">Не перезванивать</div></label
+                  >
                 </div>
                 <div class="form__btns">
                   <input
                     type="submit"
                     value="Заказать"
                     class="btn btn--theme-red"
+                    id="submit"
                   /><input
                     type="reset"
                     value="Очистить"
@@ -742,6 +750,14 @@
         </ul>
       </nav>
     </section>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <p id="modal-text"></p>
+        <span class="close btn">закрыть</span>
+      </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="./js/main.js" type="module"></script>
